@@ -2,19 +2,18 @@
 
 # Install
 
-Run
+1.) Run
 ```bash
 composer require flexic/doctrine-pg-similarity
 ```
 to install `flexic/doctrine-pg-similarity` package.
 
-
-Enable extension in your Postgres database by running
+2.) Enable extension in your Postgres database by running
 ```postgresql
 CREATE EXTENSION pg_trgm;
 ```
 
-Configure `DQL` function for doctrine:
+3.) Configure `DQL` function for doctrine:
 
 Configuration for Symfony:
 ```yaml
