@@ -1,0 +1,32 @@
+{
+  "name": "flexic/doctrine-pg-similarity",
+  "description": "Provides Doctrine DQL function for similarity in Postgres DB's.",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [],
+  "authors": [
+    {
+      "name": "Hendrik Legge",
+      "email": "hendrik.legge@themepoint.de"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "doctrine/orm": "^2.14"
+  },
+  "require-dev": {
+    "ergebnis/php-cs-fixer-config": "^4.9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Flexic\\DoctrinePGSimilarity\\": "src/"
+    }
+  },
+  "config": {
+    "platform": {
+      "php": "8.0"
+    },
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
