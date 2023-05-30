@@ -51,7 +51,7 @@ final class SimilarityFunction extends FunctionNode
             return $expression;
         }
 
-        return $this->fieldExpression->dispatch(
+        return $expression->dispatch(
             $sqlWalker,
         );
     }
